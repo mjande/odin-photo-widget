@@ -1,9 +1,7 @@
-
-
 <div>Odin Photo Widget</div>
 <%= form_with url: static_pages_url, method: :get do |form| %>
-  <%= form.label :user_id, "Search for a user by ID" %>
-  <%= form.text_field :user_id %>
+  <%= form.label :username, "Search for a user by username" %>
+  <%= form.text_field :username %>
   <%= form.submit "Search" %>
 <% end %>
 
