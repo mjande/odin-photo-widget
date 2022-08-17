@@ -1,13 +1,17 @@
+
+
 <div>Odin Photo Widget</div>
-<%= form_with url: 'static_pages#create' do |form| %>
+<%= form_with url: static_pages_url, method: :get do |form| %>
   <%= form.label :user_id, "Search for a user by ID" %>
   <%= form.text_field :user_id %>
   <%= form.submit "Search" %>
 <% end %>
 
 <% if @user && @photos %>
+  <div><%= @user.realname %>'s Photos</div>
   <% @photo_urls.each do |photo_url| %>
     <%= image_tag(photo_url) %>
+    <%= %>
   <% end %>
 <% elsif @user && @photos.empty? %>
   <div><%= "There are no public photos for #{@user.realname}" %></div>
