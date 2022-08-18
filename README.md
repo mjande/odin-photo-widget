@@ -1,24 +1,11 @@
-# README
+# Odin Photo Widget
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This very basic app is a photo viewer that interfaces with the Flickr API to find the photos of a given user. This learning project was created as a part of the curriculum at [The Odin Project](theodinproject.com). Project specs can be found [here](https://www.theodinproject.com/lessons/ruby-on-rails-flickr-api). 
 
-Things you may want to cover:
+Because this project is merely an opportunity to gain experience working with external APIs, there are no plans further functionality at this time
 
-* Ruby version
+## Technologies
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+> Ruby (3.1.2)
+> Rails (7.0.3)
+> Flickr API
